@@ -45,10 +45,10 @@ const Layout = ({ children }) => {
           <a 
             href="https://github.com/yukapomeranian"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >yukapomeranian</a>
         </footer>
-      </div>
+      </div>  
     </>
   )
 }
