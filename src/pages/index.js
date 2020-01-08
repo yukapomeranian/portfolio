@@ -16,7 +16,7 @@ const IndexPage = () => (
     <h1>Resume</h1>
     <Grid container spacing={2}>
       <Grid item>
-        <Button variant="contained" href="/resume">
+        <Button variant="contained" href="./resume">
           Engineer & Other
         </Button>
       </Grid>
