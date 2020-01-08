@@ -11,6 +11,17 @@ import Grid from '@material-ui/core/Grid'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <h1>Skills</h1>
+
+    <h1>Resume</h1>
+    <Grid container spacing={2}>
+      <Grid item>
+        <Button variant="contained" href="/resume">
+          Engineer & Other
+        </Button>
+      </Grid>
+    </Grid>
+    <br />
     <h1>Social</h1>
     <Grid container spacing={2}>
       <Grid item>
@@ -24,7 +35,7 @@ const IndexPage = () => (
         </Button>
       </Grid>
     </Grid>
-    
+
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
